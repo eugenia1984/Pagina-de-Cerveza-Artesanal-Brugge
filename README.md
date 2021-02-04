@@ -15,7 +15,7 @@
 Este proyecto tiene solo una rama principal
 
 ## Constrido con 🛠️
-**HTML5** , **CSS3** , **BOOTSTRP**
+**HTML5** , **CSS3** , **BOOTSTRAP**
 
 ## Demo 📦
 Si quieren ver el proyecto on line:
