@@ -1,9 +1,0 @@
-.carousel-item {
-  background-color: var(--naranja);
-  height: 200px;
-  padding-top: 25px;
-}
-/******Flechas de carusel*****/
-.carousel-control-prev-icon, .carousel-control-next-icon {
-  background-color: var(--marron);
-}
