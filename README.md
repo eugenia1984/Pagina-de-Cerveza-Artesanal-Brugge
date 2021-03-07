@@ -19,7 +19,7 @@ Este proyecto tiene solo una rama principal
 
 ## Demo 📦
 Si quieren ver el proyecto on line:
-:arrow_right: https://eugenia1984.github.io/Página-de-Cerveza-Artesanal-Brugge
+:arrow_right: https://eugenia1984.github.io/Pagina-de-Cerveza-Artesanal-Brugge
 
 ## Por favor: 🎁
 
