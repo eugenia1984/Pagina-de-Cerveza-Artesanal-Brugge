@@ -18,7 +18,7 @@
   <!------Header----------->
   <header>
     <figure class="logo">
-      <a href="index.html" alt="logo de Brugge"> <img class="logo-marca" src="./img/logo_horizontal.png" alt="logo de Brugee"> </a>
+      <a href="index.html" alt="logo de Brugge"> <img class="logo-marca" src="./img/logo_horizontal.png" alt="logo de Brugge"> </a>
     </figure>
     <!-------Link a Whatsapp con icono de carrito de compras----->
     <div id="carrito_de_compras"><a class="color-carrito" href="https://api.whatsapp.com/send/?phone=5491165896401&text&app_absent=0" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
@@ -27,7 +27,7 @@
     </div>
   </header>
   <!-------Barra de navegación------------->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-personalizado">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -63,48 +63,52 @@
     <section>
       <section class="container mt-5 mb-5">
         <div class="row justify-content-center">
-
-          <section class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+          <!---Tarjeta de Barriles---->
+          <section class="col-12 col-sm-6 col-md-4  mt-2">
             <article class="card">
               <div class="card-body">
                 <h2 class="card-title">Barriles</h2>
               </div>
-              <img class="cover-small" src="./img/barriles.jpg" alt="imagen de un barril de Brugge">
-              <div class="card-body">
-                <p class="card-text">
-                  Te ofrecemos todos nuestros estilos en <strong>barriles retornables</strong> de 50l de acero inoxidable y conector G. <br>Entregamos en 48hs dentro de CABA y GBA, hacemos envíos al interior del país. Anímate y contáctanos!
+              <div id="imagen-de-fondo-barriles"></div>
+              <div class="card-body card-body-texto">
+                <p class="card-text-cards">
+                  Te ofrecemos todos nuestros estilos en <strong>barriles retornables</strong> de 50l de acero inoxidable y conector G. </p>
+                  <p class="card-text-cards">Entregamos en 48hs dentro de CABA y GBA, hacemos envíos al interior del país. Anímate y contáctanos!
                 </p>
-                <a href="https://api.whatsapp.com/send/?phone=5491165896401&text&app_absent=0" target="_blank" class="btn btn-primary">Consultar promociones vigentes!</a>
               </div>
             </article>
           </section>
-
-          <section class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+          <!---Tarjeta de Botella---->
+          <section class="col-12 col-sm-6 col-md-4  mt-2">
             <article class="card">
               <div class="card-body">
                 <h2 class="card-title">Botellas</h2>
               </div>
               <video class="imagen-video" src="video/botellas_video.mp4" controls preload loop></video>
-              <div class="card-body">
-                <p class="card-text-video"> Tenemos disponibles todos nuestros estilos en <strong>botellas de vidrio</strong> de 500 cc. <br>Consultar por precios mayoristas para comercios.</p>
-                <a href="https://api.whatsapp.com/send/?phone=5491165896401&text&app_absent=0" target="_blank" class="btn btn-primary">Hacemos entregas en CABA, GBA y al interior del país!</a>
+              <div class="card-body card-body-texto">
+                <p class="card-text-cards"> Tenemos disponibles todos nuestros estilos en <strong>botellas de vidrio</strong> de 500 cc. </p>
+                <p class="card-text-cards"> Consultar por precios mayoristas para comercios.</p>
               </div>
             </article>
           </section>
-
-          <section class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+          <!----Tarjeta de chopera---->
+          <section class="col-12 col-sm-6 col-md-4  mt-2">
             <article class="card">
               <div class="card-body">
                 <h2 class="card-title">Choperas</h2>
               </div>
-              <img class="cover-small" src="./img/chopera.png" alt="imagen de una chopera de Brugge">
-              <div class="card-body">
-                <p class="card-text"> No te preocupes más por tener que enfriar 20 lts de cerveza. <br>Tenemos la solución para tu evento: <strong>birra helada</strong> durante todo el evento. <br>Te alquilamos la chopera, a partir de los 20lts., el servicio consiste en la entrega de la chopera, puesta a punto y retiro.</p>
-                <a href="https://api.whatsapp.com/send/?phone=5491165896401&text&app_absent=0"  target="_blank" class="btn btn-primary">Consultar promociones vigentes</a>
+              <div id="imagen-de-fondo-chopera"></div>
+              <div class="card-body card-body-texto">
+                <p class="card-text-cards"> No te preocupes más por tener que enfriar 20 lts de cerveza. <br>Tenemos la solución para tu evento: <strong>birra helada</strong> durante todo el evento. </p>
+                <p class="card-text-cards">Te alquilamos la chopera, a partir de los 20lts., el servicio consiste en la entrega de la chopera, puesta a punto y retiro.</p>
               </div>
             </article>
           </section>
-            
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-sm-6 my-3 boton-consultar">
+            <a href="https://api.whatsapp.com/send/?phone=5491165896401&text&app_absent=0"  target="_blank" class="btn btn-primary">Consultar promociones vigentes</a>
+          </div>
         </div>
       </section>
     </section>
@@ -134,7 +138,7 @@
     </section>
     <!----------Legal--------->
     <section class="legal">
-      <p class="texto-footer"> &#169 Maria Eugenia Costa - Programá Desde Tu Casa</p>
+      <p class="texto-footer"> &#169 2021 Todos los derechos reservados</p>
     </section>
 
   </footer>
