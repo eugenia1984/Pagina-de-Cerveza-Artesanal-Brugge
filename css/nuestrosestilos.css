@@ -6,23 +6,39 @@
   -webkit-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
 
-.card-title {
-  min-height: 4rem;
-  font-size: 25px;
-  text-align: center;
-}
-.cover-small {
-  height: 300px;
+.card-title { min-height: 3.50rem; font-size: 25px; text-align: center;}
+
+@media  (min-width: 575px ) {
+  .card-body-text{ height: 26rem;}
 }
 
-.card-text {
-  height: 24rem;
+@media  (min-width: 768px ) {
+  .card-body-text{ height: 29rem;}
 }
+@media  (min-width: 1200px ) {
+  .card-body-text{ height: 26rem;}
+}
+
+#imagen-de-fondo-cerveza { height: 300px; background: url(../img/SessionIPA.jpg); background-color: #F4AC52; background-position: center; background-repeat: no-repeat; background-size: cover; }
+
+#imagen-de-fondo-cerveza-honey { height: 300px; background: url(../img/honey.jpg); background-color: #F4AC52; background-position: center; background-repeat: no-repeat; background-size: cover; }
+
+#imagen-de-fondo-cerveza-irish { height: 300px; background: url(../img/irish_red.jpg); background-color: #F4AC52; background-position: center; background-repeat: no-repeat; background-size: cover; }
+
+#imagen-de-fondo-cerveza-new-england { height: 300px; background: url(../img/new_england_ipa.jpg); background-color: #F4AC52; background-position: center; background-repeat: no-repeat; background-size: cover; }
+
+#imagen-de-fondo-cerveza-golden-wheat { height: 300px; background: url(../img/golden_wheat.jpg); background-color: #F4AC52; background-position: center; background-repeat: no-repeat; background-size: cover; }
+
+#imagen-de-fondo-cerveza-oatmeal-stout { height: 300px; background: url(../img/oatmeal_stout.jpg); background-color: #F4AC52; background-position: center; background-repeat: no-repeat; background-size: cover; }
+
+#imagen-de-fondo-cerveza-summer-ipa { height: 300px; background: url(../img/summer_ipa.jpg); background-color: #F4AC52; background-position: center; background-repeat: no-repeat; background-size: cover; }
+
+#imagen-de-fondo-cerveza-old-ale { height: 300px; background: url(../img/old_ale.jpg); background-color: #F4AC52; background-position: center; background-repeat: no-repeat; background-size: cover; }
 
 /****** Botón*****/
-.bg-secondary{
-  background-color: #3D1C04 !important;
-  height: 5rem;
-  width: 12rem;
-  font-size: 14px;
+.card-text-detalles{
+  color: #3D1C04;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
 }
