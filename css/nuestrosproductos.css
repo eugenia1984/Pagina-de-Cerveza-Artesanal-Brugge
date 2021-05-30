@@ -11,6 +11,23 @@
   font-size: 25px;
   text-align: center;
 }
+
+#imagen-de-fondo-barriles {
+  height: 350px;
+  background: url(../img/barriles.jpg);
+  background-color: #F4AC52;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#imagen-de-fondo-chopera {
+  height: 350px;
+  background: url(../img/chopera.jpg);
+  background-color: #F4AC52;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .cover-small {
   height: 300px;
 }
@@ -18,22 +35,52 @@
 .imagen-video {
   height: 350px;
 }
-
-.card-text {
-  margin: 1rem;
-  min-height: 32rem;
+.card-text-cards {
+  text-align: center;
+  padding: 0.25rem 0.5rem;
 }
 
-.card-text-video {
-  margin: 1rem;
-  min-height: 28.5rem;
+@media  (min-width: 576px ) {
+  .card-body-texto {
+    padding: 1rem;
+    min-height: 28rem;
+  }
 }
+@media  (min-width: 768px ) {
+  .card-body-texto {
+    padding: 1rem;
+    min-height: 35rem;
+  }
+}
+@media  (min-width: 992px ) {
+  .card-body-texto {
+    padding: 1rem;
+    min-height: 26rem;
+  }
+}
+@media  (min-width: 1200px ) {
+  .card-body-texto {
+    padding: 1rem;
+    min-height: 22rem;
+  }
+}
+
 /******botones******/
-
+.boton-consultar a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
 .btn-primary {
   background-color: #F4AC52;
+  border: 2px solid #3D1C04;
 }
 
 .btn-primary:hover {
   background-color: #3D1C04;
+  border: 2px solid #3D1C04;
 }
