@@ -40,7 +40,24 @@ p {
 .color-carrito {
   color: var(--marron);
 }
+.bg-personalizado {
+  background-color: var(--naranja);
+  color: var(--marron);
+}
 
+#navbarNav ul li a {
+  font-weight: 600;
+}
+#navbarNav ul li a:hover {
+  background-color: var(--marron);
+  color: var(--naranja);
+  padding: 0.75rem;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
 /******** TITULO DE LA SECCIÓN***************/
 
 .titulo {
@@ -52,13 +69,18 @@ p {
 
 h1 {
   font-size: 22px;
+  font-weight: 600;
 }
 
 /***************NOSOTROS Y NUESTRA HISTORIA*******/
 .foto-equipo {
   width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
 }
-
+article.texto-centrado {
+  text-align: center;
+}
 
 .products-stripe {
   overflow-x: scroll;
