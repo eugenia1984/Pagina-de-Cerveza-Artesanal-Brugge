@@ -11,21 +11,37 @@
   * Contactanos: con los iconos de Bootstrap se personalizaron al marrón de brugge y se linkearon para que los contacten por instagram, email o celular. Si quieren recibir información de promociones pueden completar el formulario y enviarlo.
 * Se agregó con un position: fixed y z-index:999 el icino del carro de compras (también icono de Bootstrap personalizando el color a la marca) para que peudan pedir por whatsapp. Similar en el footer, con links a whatsapp e Instagram.
 
+---
+
 ## Contenido 🚀
+
 Este proyecto tiene solo una rama principal
 
+---
+
 ## Constrido con 🛠️
+
 **HTML5** , **CSS3** , **BOOTSTRAP**
 
+---
+
 ## Demo 📦
+
 Si quieren ver el proyecto on line:
 :arrow_right: https://eugenia1984.github.io/Pagina-de-Cerveza-Artesanal-Brugge
+
+---
 
 ## Por favor: 🎁
 
 * Comparte este proyecto con otros 📢
 * Muchas gracias 🤓.
----
-## Notes
-Aprecio tu interés en este proyecto ⌨️ con  ❤️ de [María Eugenia Costa](https://github.com/eugenia1984) 😊 y seguime en [LinkedIn](http://www.linkedin.com/in/maríaeugeniacosta) 
 
+---
+
+## Notes
+
+Aprecio tu interés en este proyecto ⌨️ con  ❤️ de [María Eugenia Costa](https://github.com/eugenia1984) 😊 y seguime en [LinkedIn - maria-eugenia-costa](https://www.linkedin.com/in/maria-eugenia-costa/)
+
+
+----
